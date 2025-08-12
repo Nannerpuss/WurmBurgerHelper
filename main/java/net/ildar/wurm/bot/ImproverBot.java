@@ -290,7 +290,7 @@ public class ImproverBot extends Bot {
     private void registerEventProcessors() {
         registerEventProcessor(message -> message.contains("You improve the")
                         || message.contains("You damage the")
-                        || message.contains("You will want to polish the")
+                        || message.contains("You need to polish the")
                         || message.contains("You must use a mallet on the ")
                         || message.contains("You must use a file to smooth ")
                         || message.contains("You notice some notches you must carve away")
